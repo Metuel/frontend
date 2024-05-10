@@ -23,7 +23,7 @@ function Check(){
 
             const token = localStorage.getItem('token');
 
-            const userResponse = await fetch('https://health2-v6zl.onrender.com/api/data/',
+            const userResponse = await fetch('https://backend-83h2.onrender.com/api/data/',
         {
             method: 'POST',
             headers: {
@@ -74,14 +74,15 @@ function Check(){
         marginLeft: "10px",
         borderRadius: "15px",
         border: "none",
-        backgroundColor: "rgba(255, 255, 255, 0.75)",
+        backgroundColor: "rgba(0, 248, 83, 0.75)",
         padding: "10px",
         cursor: "pointer",
         fontFamily: "Arial, Helvetica, sans-serif",
         fontSize: "20px",
         fontWeight: "bold",
-        color: "#333",
+        color: "aliceblue",
         textDecoration: "none",
+        width : "400px"
     }
 
 
